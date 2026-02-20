@@ -1,0 +1,22 @@
+--- STARTING VERIFICATION ---
+--- STARTING VERIFICATION ---
+
+1. Registering new Admin...
+Admin Registered: true
+
+2. Logging in as Admin...
+Admin Token received
+
+3. Testing Bulk Import...
+Bulk Import Result: {"message":"Bulk import completed","results":{"success":1,"failed":0,"errors":[]}}
+
+4. Verifying Unregistered Alumni Login restriction...
+PASS: Login denied with 403 as expected.
+
+5. Claiming Alumni Account (Registration)...
+Claim Result: {"success":true,"message":"Alumni account claimed and registered successfully"}
+
+6. Logging in with new credentials...
+PASS: Login successful. Token received.
+User Object: {"id":"6995d255fd7e00e942e9b715","firstName":"Alice","lastName":"Alumni-Updated","email":"alumni_1771426389307@test.com","role":"alumni","isRegistered":true}
+User isRegistered: YES
